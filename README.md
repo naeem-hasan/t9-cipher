@@ -6,7 +6,7 @@ A text to T9 keystrokes (and vise versa) generator created with Python.
 
 ## Usage:
 ```python
-from t9-cipher import T9Text
+from t9_cipher import T9Text
 mytext = T9Text("Hello world")
 print mytext.to_keystrokes()
 # prints '44 33 555 555 666 0 9 666 777 555 3'
